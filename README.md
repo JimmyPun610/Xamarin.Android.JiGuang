@@ -11,7 +11,7 @@ Guide :
 1. Reference the dll to your Xamarin Android project
 
 2. Create a class inherit PushRecevier
-```
+```C#
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -48,7 +48,7 @@ namespace MobileApp.Droid.NotificationHandler
 }
 ```
 3. Push these things to your AndroidManifest.xml
-```
+```XML
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <!--JPush Required-->
@@ -204,7 +204,7 @@ namespace MobileApp.Droid.NotificationHandler
   </application>
   ```
 3. Add these code to MainActivity.cs
-```
+```C#
   protected override void OnCreate(Bundle bundle)
         {  
             base.OnCreate(bundle);
