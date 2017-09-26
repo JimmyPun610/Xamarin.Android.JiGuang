@@ -57,10 +57,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jcore-android-1.1.7.jar" />
+    <EmbeddedJar Include="Jars\jcore-android-1.1.6.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jpush-android-3.0.9.jar" />
+    <EmbeddedJar Include="Jars\jpush-android-3.0.8.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
