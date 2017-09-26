@@ -7,7 +7,6 @@ https://github.com/JimmyPun610/XamarinAndroidJiGuangPushNotification/raw/master/
 Based on JiGuang SDK v3.0.8
 https://www.jiguang.cn/push
 
-==============================================================================================================================
 Guide : 
 1. Reference the dll to your Xamarin Android project
 
