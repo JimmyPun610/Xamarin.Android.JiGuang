@@ -4,7 +4,7 @@ This is JiGuang Push notification SDK in Xamarin Android
 Compile file as
 https://github.com/JimmyPun610/XamarinAndroidJiGuangPushNotification/raw/master/JPushAndroidLibrary.dll
 
-Based on JiGuang SDK v3.0.8
+Based on JiGuang SDK v3.0.9
 https://www.jiguang.cn/push
 
 Guide : 
@@ -68,6 +68,14 @@ namespace MobileApp.Droid.NotificationHandler
   <uses-permission android:name="android.permission.WRITE_SETTINGS" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <application android:label="MobileApp.Android" android:icon="@drawable/icon">
+	
+    <!-- since 3.0.9 Required SDK-->
+    <provider
+        android:authorities="YOUR_APP_ID.DataProvider"
+        android:name="cn.jpush.android.service.DataProvider"
+        android:exported="true"
+        />
+	
    <!-- Required SDK 核心功能-->
     <!-- 可配置android:process参数将PushService放在其他进程中 -->
     <service
