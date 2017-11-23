@@ -13,7 +13,7 @@
     <AssemblyName>JPushAndroidLibrary</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,13 +43,13 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\armeabi\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\mips\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\mips64\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\x86\libjcore117.so" />
-    <EmbeddedNativeLibrary Include="lib\x86_64\libjcore117.so" />
+    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\mips64\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\mips\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\x86\libjcore118.so" />
+    <EmbeddedNativeLibrary Include="lib\x86_64\libjcore118.so" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -57,10 +57,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jcore-android-1.1.7.jar" />
+    <EmbeddedJar Include="Jars\jcore-android-1.1.8.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jpush-android-3.0.9.jar" />
+    <EmbeddedJar Include="Jars\jpush-android-3.1.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
