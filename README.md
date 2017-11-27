@@ -55,7 +55,7 @@ namespace MobileApp.Droid.NotificationHandler
   <permission
     android:name="YOUR_APP_ID.permission.JPUSH_MESSAGE"
     android:protectionLevel="signature" />
-  <uses-permission android:name="com.fulbright.hk.fbtrading.android.permission.JPUSH_MESSAGE" />
+  <uses-permission android:name="YOUR_APP_ID.android.permission.JPUSH_MESSAGE" />
   <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -98,7 +98,7 @@ namespace MobileApp.Droid.NotificationHandler
         android:exported="true">
       <intent-filter >
         <action android:name="cn.jpush.android.intent.DaemonService" />
-        <category android:name="com.fulbright.hk.fbtrading.android"/>
+        <category android:name="YOUR_APP_ID.android"/>
       </intent-filter>
     </service>
 
