@@ -4,7 +4,7 @@ This is JiGuang Push notification SDK in Xamarin Android
 Compile file as
 https://github.com/JimmyPun610/XamarinAndroidJiGuangPushNotification/raw/master/JPushAndroidLibrary.dll
 
-Based on JiGuang SDK v3.1.0
+Based on JiGuang SDK v3.1.1
 https://www.jiguang.cn/push
 
 Guide : 
