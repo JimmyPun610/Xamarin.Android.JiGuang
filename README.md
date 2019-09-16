@@ -182,3 +182,10 @@ public class MyJPushMessageReceiver : JPushMessageReceiver
 - {ProjectNamespace}.MyJPushMessageReceiver
 - {ProjectNamespace}.MyJCommonService
 ```
+
+
+5. Initialization
+```C#
+JPushInterface.SetDebugMode(debugMode);
+JPushInterface.Init(Android.App.Application.Context);
+```
