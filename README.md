@@ -22,7 +22,7 @@ public class MyJCommonService : JCommonService
 2. Create Custom JPushMessageReceiver class, replace {ProjectNamespace} to your project namespace like "XF.JiGuangPush.Sample.Droid.Notificaiton". You can also override the methods for your own actions.
 ```C#
 [BroadcastReceiver(Name = "{ProjectNamespace}.MyJPushMessageReceiver")]
-public class MyJPushMessageReceiver : XFJiGuangPushMessageReceiver
+public class MyJPushMessageReceiver : JPushMessageReceiver
 {
      public override void OnRegister(Context p0, string p1)
         {
