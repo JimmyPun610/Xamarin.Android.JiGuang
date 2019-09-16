@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPushAndroidLibrary", "JPushAndroidLibrary\JPushAndroidLibrary.csproj", "{F489DABF-827D-41B8-9C78-7C1BC0319810}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiGuangPush.Binding.Droid", "JiGuang.Binding.Droid\JiGuangPush.Binding.Droid.csproj", "{8FEB213E-4984-420B-8960-E16DBAA4C82A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F489DABF-827D-41B8-9C78-7C1BC0319810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F489DABF-827D-41B8-9C78-7C1BC0319810}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F489DABF-827D-41B8-9C78-7C1BC0319810}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F489DABF-827D-41B8-9C78-7C1BC0319810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEB213E-4984-420B-8960-E16DBAA4C82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEB213E-4984-420B-8960-E16DBAA4C82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEB213E-4984-420B-8960-E16DBAA4C82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEB213E-4984-420B-8960-E16DBAA4C82A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E92F295-3A30-4F80-9559-46DCC08D5F91}
 	EndGlobalSection
 EndGlobal

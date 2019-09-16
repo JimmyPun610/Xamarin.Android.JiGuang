@@ -147,3 +147,10 @@
 /JPushAndroidLibrary/JPushAndroidLibrary/obj/Release/native_library_imports/x86_64/libjcore116.so
 /JPushAndroidLibrary/JPushAndroidLibrary/obj/Release/resourcepaths.cache
 /JPushAndroidLibrary/JPushAndroidLibrary/obj/Release/sdks.cache
+obj
+bin
+db.lock
+storage.ide
+storage.ide-shm
+storage.ide-wal
+*.suo

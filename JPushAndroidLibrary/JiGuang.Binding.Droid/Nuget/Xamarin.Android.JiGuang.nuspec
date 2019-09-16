@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.Android.JiGuang</id>
+    <version>3.3.6</version>
+    <title>Xamarin.Android.JiGuang</title>
+    <authors>Jimmy Pun</authors>
+    <owners>Jimmy Pun</owners>
+    <licenseUrl>https://github.com/JimmyPun610/Xamarin.Android.JiGuang</licenseUrl>
+    <projectUrl>https://github.com/JimmyPun610/Xamarin.Android.JiGuang</projectUrl>
+    <iconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the binding library of JiGuang(極光) push notification for Xamarin Android</description>
+    <releaseNotes>
+		3.3.6 SDK 3.3.6 version
+	</releaseNotes>
+	
+    <copyright>Copyright 2019</copyright>
+    <tags>Xamarin.Android JiGuang Push Notification</tags>
+	
+  </metadata>
+  <!-- Insert below <metadata> element -->
+<files>
+    <!-- Cross-platform reference assemblies -->
+	<file src="..\bin\Debug\*.dll" target="lib\monoandroid" />
+</files>
+</package>
